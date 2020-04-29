@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 2px auto;
+    width: 90%;
+}
+
+header {
+    background: yellow;
+    border-radius: 10px;
+}
+
+header h2 {
+    display: none;
+}
+
+main nav {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px 0;
+}
+
+main ul {
+    display: none;
+}
+
+main .div1,
+.div2 div {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin: 10px 0;
+}
+
+main div h3 {
+    margin: 20px 0;
+}
+
+main div p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: pink;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:600px) {
+    header h2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width:936px) {
+    main {
+        display: flex;
+    }
+
+    main select {
+        display: none;
+    }
+
+    main ul {
+        display: block;
+        list-style: none;
+    }
+
+    main nav {
+        flex: 1.4;
+        max-height: 100px;
+        margin: 20px 20px;
+    }
+
+    main ul {
+        margin: 10px;
+    }
+
+    main .div1 {
+        flex: 2.5;
+        margin: 20px 10px;
+        max-height: 180px;
+    }
+
+    main .div2 {
+        flex: 2.5;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    main nav {
+        flex: 0.7;
+    }
+
+    main .div1 {
+        flex: 1.2;
+        margin-right: 0;
+    }
+
+    .div2 {
+        flex: 1.2;
+        display: inline-flex;
+    }
+
+    .div2>* {
+        flex: 1;
+        margin: 0 1px;
+    }
+
+    main .div2 .div2-1 {
+        margin-right: 10px;
+    }
+}

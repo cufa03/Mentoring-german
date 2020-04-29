@@ -1,0 +1,17 @@
+
+.form{
+    background: coral;
+}
+
+.header-1{
+    border: solid 2px black;
+    display: flex;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border: brown solid 5px;
+}
+.name:focus{
+    background: gray;
+}

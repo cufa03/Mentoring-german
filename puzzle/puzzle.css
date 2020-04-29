@@ -1,0 +1,71 @@
+body {
+  margin: 5px 30px;
+}
+
+h1 {
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #96702b;
+  max-width: 318px;
+  max-height: 400px;
+  margin: 0;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  margin: 2px;
+  padding: 40px;
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+#btn:hover {
+  background-color: rgb(245, 188, 188);
+}
+
+/*
+.btn {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(119, 119, 119, 0.247);
+}
+*/
+.reset-game {
+  margin-left: 90px;
+  margin-top: 15px;
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 7px;
+  border: 2px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 13px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+
+.reset-game:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.reset-game:active {
+  position: relative;
+  top: 1px;
+}

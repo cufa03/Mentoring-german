@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: fit-content;
+}
+
+.resultado {
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    min-width: 210px;
+    border: solid 2px rgba(0, 0, 0, 0.514);
+    background-color: rgba(207, 215, 223, 0.795);
+    height: 40px;
+    align-items: center;
+    padding: 0 5px;
+    justify-content: left;
+}
+
+.teclas {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 200px;
+    cursor: pointer;
+}
+
+.numeros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    cursor: pointer;
+}
+
+.dont {
+    font: bold;
+    cursor: pointer;
+}
+
+.operadores {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: span 2;
+    cursor: pointer;
+}
+
+.operador {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.c {
+    height: 3.75em;
+    background-color: rgba(207, 215, 223, 0.795);
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoring Page</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header-1">
+        <h1>Mentoring grone</h1>
+        <img src="https://ca.slack-edge.com/T01140ZSJ4S-U01140ZSJ7L-6927e87511a2-48" alt="" class="img">
+    </header>
+    <main>
+        <form action="" class="form">
+            <fieldset>
+                <label for="name" aria-required="true" class="label-name">Nombre:</label>
+                <input type="text" name="name" placeholder="Facundo" aria-required="true" class="name">
+                <label for="lastname">Apellido:</label>
+                <input type="text" name="lastname" placeholder="apellido" aria-required="true">
+
+                <br><br>
+                <label for="user">Usuario:</label>
+                <input type="text" name="user" placeholder="cufa03" required>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" placeholder="contraseña" required>
+                <label for="pass-check">Confirme contraseña:</label>
+                <input type="password" name="pass-check" placeholder="Re ingrese contraseña" required>
+
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="mail" name="mail" placeholder="ejemplo@gmail.com" required>        
+
+                <br><br>
+                <label for="born">Fecha de nacimiento</label>
+                <input type="date" name="born">
+                <label for="city">Ciudad</label>
+                <select name="select-ciudad" id="">
+                    <option value="vote">Corrientes</option>
+                    <option value="vote">Resistencia</option>
+                    <option value="vote">Barranquera</option>
+                </select>
+                <label for="cp">Codigo postal</label>
+                <input type="text" name="cp" placeholder="Codigo postal" required>
+
+                <br><br>
+                <label for="mail-notif">Desea recibir notificaciones via mail?:</label>
+                <input type="radio" name="mail-notif" >Si
+                <input type="radio" name="mail-notif" >no
+
+                <br><br>
+                <button type="submit" aria-label="boton enviar informacion">Enviar info</button>
+                <button type="reset" aria-label="boton borrar datos"> Borrar formulario </button>
+            </fieldset>  
+        </form>
+    </main>
+    <footer>
+        <br><br>
+        <hr>
+        <p>® Copyright | Mi Web prueba 2020 & Co.</p>
+    </footer>
+</body>
+</html>
