@@ -8,7 +8,7 @@ let num1 = '',
 
 function getNumber(event) {
     op === '' ? num1 += event.target.textContent : num2 += event.target.textContent;
-    resultado.innerText = num1 + op + num2;
+    resultado.innerText = num1 + op + num2
 
 }
 
