@@ -1,0 +1,19 @@
+#film:hover {
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    /*background: rgba(158, 157, 157, 0.336);*/
+}
+
+#container div {
+    width: 100%;
+}
+
+#container div header {
+    background-color: rgba(128, 128, 128, 0.637);
+    height: 27px;
+    line-height: 27px;
+}
